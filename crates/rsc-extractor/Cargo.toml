@@ -1,0 +1,23 @@
+[package]
+name = "rsc-extractor"
+version = "0.1.0-dev"
+edition = "2024"
+license = "MIT-0"
+default-run = "rsc-extractor"
+
+[dependencies]
+anyhow = { workspace = true }
+binrw = "0.15"
+bstr = { workspace = true }
+bytesize = "2"
+camino = { workspace = true }
+cap-std = { workspace = true }
+cap-tempfile = { workspace = true }
+chrono = "0.4"
+clap = { workspace = true, features = ["derive"] }
+filetime = "0.2"
+infer = "0.19"
+sanitize-filename = "0.6"
+thiserror = "2"
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }

@@ -1,0 +1,19 @@
+[package]
+name = "xtask"
+edition = "2024"
+license = "MIT-0"
+
+[dependencies]
+anyhow = { workspace = true }
+bstr = { workspace = true }
+camino = { workspace = true }
+cap-std = { workspace = true }
+cap-tempfile = { workspace = true }
+clap = { workspace = true }
+escargot = "0.5"
+indicatif = "0.18"
+reqwest = { version = "0.12", features = ["blocking"] }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+walkdir = "2"
+zip = "6"
