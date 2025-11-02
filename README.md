@@ -23,7 +23,7 @@ rsc-extractor --help  # to see other options
 
 ## Testing
 
-There are [xtasks](https://github.com/matklad/cargo-xtask) for downloading and extracting sample projects from the [BYOND Preservation Project](https://archive.org/details/ByondPreservationProject) on the Internet Archive as it was on 2 November 2025 (SHA256 hash `8976b208a4750c0603f257da7cf4c9b01a953dc1c4de3a054b9e8e8e35bbefc4`).
+There are [xtasks](https://github.com/matklad/cargo-xtask) for downloading and extracting sample projects from the [BYOND Preservation Project](https://archive.org/details/ByondPreservationProject) on the Internet Archive as it was on 2 November 2025 (SHA256 hash `80f5d52c169450429b863ed3088fd640f9a4978472081a352223fd63d9795490`).
 
 ```shell
 cargo xtask download-bpp  # to workspace/ByondPreservationProject.zip
