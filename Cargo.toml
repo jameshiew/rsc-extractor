@@ -8,6 +8,6 @@ bstr = "1.12.1"
 camino = "1.2.1"
 cap-std = "3.4.5"
 cap-tempfile = "3.4.5"
-clap = { version = "4.5.51", features = ["derive"] }
-tracing = "0.1.41"
-tracing-subscriber = { version = "0.3.20", features = ["env-filter"] }
+clap = { version = "4.5.53", features = ["derive"] }
+tracing = "0.1.43"
+tracing-subscriber = { version = "0.3.22", features = ["env-filter"] }
