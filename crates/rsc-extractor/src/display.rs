@@ -1,7 +1,6 @@
 use bytesize::ByteSize;
 
 use crate::types::RscEntry;
-use crate::{oprint, oprintln};
 
 /// Print information about an RSC entry
 pub fn print_rsc_entry(entry_num: usize, rsc_entry: &RscEntry) {
