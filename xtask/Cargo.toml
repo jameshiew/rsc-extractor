@@ -12,7 +12,10 @@ cap-tempfile = { workspace = true }
 clap = { workspace = true }
 escargot = "0.5"
 indicatif = "0.18"
-reqwest = { version = "0.12", default-features = false, features = ["blocking", "rustls-tls"] }
+reqwest = { version = "0.12", default-features = false, features = [
+  "blocking",
+  "rustls-tls"
+] }
 tracing = { workspace = true }
 tracing-subscriber = { workspace = true }
 walkdir = "2"
