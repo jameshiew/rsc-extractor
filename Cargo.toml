@@ -7,7 +7,7 @@ anyhow = "1.0.100"
 bstr = "1.12.1"
 camino = "1.2.1"
 cap-std = "3.4.5"
-cap-tempfile = "3.4.5"
+cap-tempfile = "4.0.0"
 clap = { version = "4.5.53", features = ["derive"] }
 tracing = "0.1.43"
 tracing-subscriber = { version = "0.3.22", features = ["env-filter"] }
