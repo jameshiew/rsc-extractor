@@ -19,4 +19,4 @@ reqwest = { version = "0.12", default-features = false, features = [
 tracing = { workspace = true }
 tracing-subscriber = { workspace = true }
 walkdir = "2"
-zip = "6"
+zip = "8"
