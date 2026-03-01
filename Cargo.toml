@@ -3,11 +3,11 @@ resolver = "3"
 members = ["crates/*", "xtask"]
 
 [workspace.dependencies]
-anyhow = "1.0.100"
+anyhow = "1.0.102"
 bstr = "1.12.1"
 camino = "1.2.2"
 cap-std = "3.4.5"
 cap-tempfile = "3.4.5"
-clap = { version = "4.5.56", features = ["derive"] }
+clap = { version = "4.5.60", features = ["derive"] }
 tracing = "0.1.44"
 tracing-subscriber = { version = "0.3.22", features = ["env-filter"] }
